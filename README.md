@@ -1,4 +1,4 @@
-#<b>Support</b>
+#<b>Support Bot</b>
 
 
 | Command | Description |
