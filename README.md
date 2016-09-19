@@ -31,20 +31,30 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 
 * * *
 
-### Realm configuration
+### Sudo configuration
 
 After you run the bot for first time, send it `!id`. Get your ID and stop the bot.
 
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
+    224661370,
     YourID
   }
 ```
+### inline keyboard configuration
+
+go to the bot father and send /token select you api and copy the token like:
+
+<code>110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw</code>
+Open ./bot/utils.lua and add your ID to the "sudo_users" section in the following format:
+```
+  sudo_users = {
+    224661370,
+    YourID
+  }
+```
+
 Then restart the bot.
 
 * * *
