@@ -1,4 +1,4 @@
-# Support
+# <h3><b>Support</b></h3>
 
 
 | Command | Description |
