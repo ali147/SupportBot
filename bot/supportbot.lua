@@ -218,9 +218,11 @@ function create_config( )
     "stats",
     "anti_spam",
     "broadcast",
+    "start",
+    "nerkh",
 	"msg_checks"
     },
-    sudo_users = {224661370,(your id)},--Sudo users
+    sudo_users = {224661370},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [Support BOT v1
 The inline api bot for support bot powered by teleseed
