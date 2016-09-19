@@ -47,6 +47,7 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
 go to the bot father and send /token select you api and copy the token like:
 
 <code>110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw</code>
+
 Open ./bot/utils.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
