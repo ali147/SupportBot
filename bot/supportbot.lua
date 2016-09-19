@@ -214,16 +214,13 @@ function create_config( )
     enabled_plugins = {
 	"admin",
     "onservice",
-    "inrealm",
-    "ingroup",
     "banhammer",
     "stats",
     "anti_spam",
     "broadcast",
-	"supergroup",
 	"msg_checks"
     },
-    sudo_users = {224661370},--Sudo users
+    sudo_users = {224661370,(your id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [Support BOT v1
 The inline api bot for support bot powered by teleseed
