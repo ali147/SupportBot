@@ -223,16 +223,16 @@ function create_config( )
 	"supergroup",
 	"msg_checks"
     },
-    sudo_users = {159887854,0,tonumber(our_id)},--Sudo users
+    sudo_users = {224661370},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [SecurityBOT v3.7
-Unique and powerful Bot Based On TeleSeed 
-Developer&Manager :[ @aliReza_PT/@CliApi ]
-pmresan: @alireza_PT_BOT & pmSecurityBOT
-Our channel: @create_antispam_bot
-GITHUB: https://github.com/alireza1998/SecurityBOT
+    about_text = [Support BOT v1
+The inline api bot for support bot powered by teleseed
 
-New developments with us :)
+<b>GitHub </b>: https://github.com/NeoErfan
+<b>Developer <b>: https://telegram.me/N_E_0
+
+<b>Channel </b>: https://telegram.me/Neo_ch
+
 ]],
     help_text_realm = [[
 ]],
