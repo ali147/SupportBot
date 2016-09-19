@@ -16,8 +16,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/hafez16/mega-shield.git
-cd mega-shield
+git clone https://github.com/neoerfan/supportbot
+cd supportbot
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
