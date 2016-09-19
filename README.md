@@ -48,12 +48,9 @@ go to the bot father and send /token select you api and copy the token like:
 
 <code>110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw</code>
 
-Open ./bot/utils.lua and add your ID to the "sudo_users" section in the following format:
+Open ./bot/utils.lua and go to line 1278 and 1301 and paste your token into توکن بات:
 ```
-  sudo_users = {
-    224661370,
-    YourID
-  }
+  local api_key = 'توکن ربات' =>  local api_key = '110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw
 ```
 
 Then restart the bot.
