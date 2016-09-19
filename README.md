@@ -3,32 +3,9 @@
 
 | Command | Description |
 |:--------|:------------|
-| [#!/]plugin text folder/name.format | for add plugin |
-| ./folder/name.format | for get plugin |
-|$cat folder/name.format | for see plugin |
-
-## Settings 
-| Command | Groups? | SuperGroups? |
-|:--------|:--------|:-------------|
-| <html>&#91;</html>#!/](un)lock links | Y | Y |
-| <html>&#91;</html>#!/](un)lock flood | Y | Y |
-| <html>&#91;</html>#!/]setflood [1-200] | Y | Y |
-| <html>&#91;</html>#!/](un)lock bots | Y | Y |
-| <html>&#91;</html>#!/](un)lock spam | Y | Y |
-| <html>&#91;</html>#!/](un)lock arabic | Y | Y |
-| <html>&#91;</html>#!/](un)lock member | Y | Y |
-| <html>&#91;</html>#!/](un)lock leave | Y | Y |
-| <html>&#91;</html>#!/](un)lock RTL | Y | Y |
-| <html>&#91;</html>#!/](un)lock tgservice | N | Y |
-| <html>&#91;</html>#!/](un)lock sticker | Y| Y |
-| <html>&#91;</html>#!/]public [yes<html>&#124;</html>no] | Y | Y |
-| <html>&#91;</html>#!/](un)lock strict | N | Y |
-
-/lock [setting] and /unlock [setting]: sets allowed actions and content for groups/SuperGroups
-	***/lock strict*** in a supergroup, if strict is locked users will be kicked for violations of settings or mutes
-
-/public [yes|no]: Set group/SuperGroup visibility in pm `!chats` or `!chatlist` commands.
-
+| /start | Start The Api Bot |
+| /nerkh | Check The Sell List |
+|Another Commands | Soon ... |
 
 # Installation
 
@@ -69,8 +46,6 @@ Open ./data/config.lua and add your ID to the "sudo_users" section in the follow
   }
 ```
 Then restart the bot.
-
-Create a realm using the `!createrealm` command.
 
 * * *
 
